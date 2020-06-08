@@ -1,0 +1,13 @@
+.nav {
+    display:flex;
+    justify-content: right;
+    width: 100%;
+    background-color: orangered;
+    
+}
+
+h3 {
+    display:flex;
+    justify-content: flex-end;
+    background-color: orangered;
+}
