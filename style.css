@@ -1,13 +1,49 @@
-.nav {
-    display:flex;
-    justify-content: right;
-    width: 100%;
+#nameBox, .navbar {
+    color:whitesmoke;
     background-color: orangered;
-    
+    font-weight: bold;
+    padding: 5px;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h3 {
-    display:flex;
-    justify-content: flex-end;
-    background-color: orangered;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 2px solid lightgray;
+    padding: 10px 30px 30px 15px;
+}
+
+.portfolioBox {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 8%;
+    background-color: whitesmoke;
+
+}
+
+.cardS {
+    display: flex;
+    align-content: space-around;
+    /* margin: 3%; */
+    padding: 3%;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    border-top: 5px solid orangered;
+    color: whitesmoke;
+    height: 60px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    position: fixed;
 }
