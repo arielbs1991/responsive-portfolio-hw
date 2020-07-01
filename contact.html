@@ -7,7 +7,8 @@
 
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+ <!-- Load font awesome icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -16,7 +17,7 @@
   <div class="container-fluid">
     <div class="row">
         <nav class="navbar navbar-expand navbar-dark bg-dark col-sm-12">
-            <a class="navbar-brand" id="nameBox" href="#">Ariel Strayer</a>
+            <a class="navbar-brand" id="nameBox" href="index.html">Ariel Strayer</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -42,28 +43,38 @@
   
   <!--contact form-->
   <div class="container contactBox py-1">
-    <div class="row">
-      <div class="col-10">
-        <form class="col-12">
-          <h3>Contact</h3>
-          <div class="form-group">
+    <div class="col-12">
+        <form class="my-2 my-lg-0">
+          <h1>Contact Me</h1>
+          <h3>Ariel Strayer</h3>
+          <h3>Email: arielbs1991@gmail.com</h3>
+          <h3>Phone: (206)388-6228</h3>
+          <div class="form-group input-mysize">
             <label for="exampleFormControlInput1">Name</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane Smith">
+            <input type="text input-mysize" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
           </div>
           <div class="form-group">
             <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="text input-mysize" class="form-control" id="exampleFormControlInput1" placeholder="youremail@somewhere.com">
           </div>
           <div class="form-group">
             <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+            <textarea class="form-control input-mysize" id="exampleFormControlTextarea1" rows="5"></textarea>
             <br>
-            <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            <button type="submit" class="btn btn-primary mb-2" placeholder="Some message for me">Submit</button>
           </div>
         </form>
       </div>
-    </div>
   </div>
+
+ 
+
+<!-- The social media icon bar -->
+<div class="icon-bar">
+  <a href="https://www.facebook.com/ariel.strayer/" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+  <a href="www.linkedin.com/in/ariel-strayer-28640b190" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+  <a href="https://github.com/arielbs1991" class="github" target="_blank"><i class="fa fa-github"></i></a>
+</div>
 
 
   <!--footer at bottom-->
